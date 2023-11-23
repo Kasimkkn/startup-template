@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Service from './pages/Service'
 import Header from './components/Header'
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <Route path="/register" element={<RegisterForm />} />
       <Route path="/login" element={<LoginForm />} />
     </Routes>
+    <Footer/>
     </>
   )
 }
